@@ -1,0 +1,13 @@
+langchain
+langgraph
+langgraph-supervisor 
+langchain-openai
+langhchain_community
+tiktoken
+streamlit
+chroma
+chromadb
+torch 
+torchvision 
+torchaudio
+sentence-transformers
