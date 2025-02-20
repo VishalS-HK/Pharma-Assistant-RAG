@@ -2,6 +2,7 @@ langchain
 langgraph
 langgraph-supervisor 
 langchain-openai
+langchain-community
 tiktoken
 streamlit
 chroma

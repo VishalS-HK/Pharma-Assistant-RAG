@@ -7,6 +7,7 @@ from tqdm.auto import tqdm
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
 from chromadb.config import Settings
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 
 if torch.backends.mps.is_available():
     print(f"GPU available: MPS")
@@ -14,7 +15,7 @@ if torch.backends.mps.is_available():
 else:
     print("GPU isn't available, using CPU")
 
-from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+
 
 embeddings = HuggingFaceBgeEmbeddings(
     model_name="all-MiniLM-L6-v2",
@@ -69,7 +70,7 @@ def data_processing(data_dir):
     print("ChromaDB database created successfully")
 
 def main():
-    data_dir = "" # folder location of the json files
+    data_dir = "../datasets/microlabs_usa/" # folder location of the json files
     data_processing(data_dir)
 
 if __name__ == "__main__":

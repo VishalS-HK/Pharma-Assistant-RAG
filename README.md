@@ -89,3 +89,12 @@ Open your web browser and navigate to http://localhost:8501 to interact with the
 ![Supervisor Agentic Architecture](./assets/agent-architecture.png)
 
 This diagram demonstrates how agents interact with the pharmaceutical knowledge base and respond to user queries.
+
+## Screenshots
+
+### Data-Processing
+![Data Processing](./assets/data-processing.png)
+
+### UI
+![UI](./assets/ui-1.png)
+![UI](./assets/ui-2.png)

@@ -14,7 +14,7 @@ import time
 llm = ChatOpenAI(
     temperature=0,
     api_key="",
-    model="gpt-4o-2024-11-20" 
+    model="gpt-4o-2024-11-20"
 )
 
 client = chromadb.PersistentClient(path="chroma_db")
