@@ -10,6 +10,7 @@ from langchain.tools import Tool
 import streamlit as st
 import random as rd
 import time
+import pysqlite3 as sqlite3
 
 __import__('pysqlite3')
 import sys
