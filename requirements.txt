@@ -11,3 +11,4 @@ torch
 torchvision 
 torchaudio
 sentence-transformers
+pysqlite3-binary

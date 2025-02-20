@@ -13,7 +13,7 @@ import time
 
 llm = ChatOpenAI(
     temperature=0,
-    api_key="",
+    api_key="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",
     model="gpt-4o-2024-11-20"
 )
 
