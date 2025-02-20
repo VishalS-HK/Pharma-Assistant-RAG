@@ -96,5 +96,11 @@ This diagram demonstrates how agents interact with the pharmaceutical knowledge 
 ![Data Processing](./assets/data-processing.png)
 
 ### UI
+#### Simple RAG
 ![UI](./assets/ui-1.png)
+
+#### Summarizer
 ![UI](./assets/ui-2.png)
+
+#### Integration and Complex Scenario Analysis
+![UI](./assets/ui-3.png)
